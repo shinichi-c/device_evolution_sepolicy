@@ -35,6 +35,13 @@ ro.vendor.audio.dolby.dax.support      u:object_r:exported_system_prop:s0
 ro.vendor.audio.dolby.dax.version      u:object_r:exported_system_prop:s0
 ro.vendor.audio.dolby.surround.enable  u:object_r:exported_system_prop:s0
 
+# LockScreen Clocks
+persist.avium.customlockscreen.enable       u:object_r:system_prop:s0
+persist.avium.customlockscreen.type         u:object_r:system_prop:s0
+persist.avium.customlockscreen.color        u:object_r:system_prop:s0
+persist.avium.customlockscreen.hour.color   u:object_r:system_prop:s0
+persist.avium.customlockscreen.minute.color u:object_r:system_prop:s0
+
 # Recovery battery
 ro.recovery.batteryless                u:object_r:recovery_config_prop:s0 exact bool
 
